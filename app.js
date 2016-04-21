@@ -70,7 +70,7 @@ function InitiateGame () {
     switchTurn(1);
   } else {
     // Computer goes first.
-    Terminal.out('It\'s ' + Computer.getName() + '\'s turn first.');
+    Terminal.out(Computer.getName() + ' goes first.');
     switchTurn(0);
   }
 }
